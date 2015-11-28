@@ -66,9 +66,7 @@ public class BasicOperations {
     /**
      * Remove Operation
      *
-     * Remove is good in Linked List because internally it is just un-linking the node,
-     * whereas in array list as we know it is using System.arrayCopy, so in array list it will use more memory
-     * @param list - A list with some dummy data
+     ** @param list - A list with some dummy data
      */
     private static void removeOperation(List<String> list){
 
