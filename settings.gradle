@@ -1,2 +1,4 @@
 rootProject.name = 'java-playground'
 
+include 'collections'
+
