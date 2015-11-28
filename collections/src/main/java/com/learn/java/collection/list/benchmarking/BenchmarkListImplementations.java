@@ -18,6 +18,7 @@ import java.util.concurrent.TimeUnit;
  *
  * Created by grijesh
  */
+@SuppressWarnings({"MismatchedQueryAndUpdateOfCollection", "UnusedDeclaration"})
 @BenchmarkMode(Mode.AverageTime)
 @Warmup(iterations = 1)
 @Measurement(iterations = 5)
