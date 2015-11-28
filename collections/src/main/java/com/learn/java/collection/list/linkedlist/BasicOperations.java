@@ -1,19 +1,25 @@
-package com.learn.java.collection.list.arraylist;
+package com.learn.java.collection.list.linkedlist;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+
 import static com.learn.java.collection.list.Utilities.print;
 
 /**
- * This class contains basic operation over ArrayList
+ * This class contains basic operation over Linked List
+ * Internally used Doubly Linked List
+ * Best for add and remove operation
  *
- * When we initialize array list the default capacity would be 10
+ * Not good for Get Operation, As it is using doubly linked list in which we have to traverse till the index
+ * whereas in Array list which is using Array internally so Get operation is very fast there
+ *
+ * When we initialize array list it will create an empty list
  * Created by grijesh
  */
 public class BasicOperations {
 
     public static void main(String... args) {
-        List<String> list = new ArrayList<>();
+        List<String> list = new LinkedList<>();
         addOperation(list);
         getOperation(list);
         removeOperation(list);
@@ -49,6 +55,7 @@ public class BasicOperations {
 
     /**
      * Get operation
+     * In get it has to traverse the node
      * @param list - A list with some dummy data
      */
     private static void getOperation(List<String> list) {
@@ -58,6 +65,9 @@ public class BasicOperations {
 
     /**
      * Remove Operation
+     *
+     * Remove is good in Linked List because internally it is just un-linking the node,
+     * whereas in array list as we know it is using System.arrayCopy, so in array list it will use more memory
      * @param list - A list with some dummy data
      */
     private static void removeOperation(List<String> list){
