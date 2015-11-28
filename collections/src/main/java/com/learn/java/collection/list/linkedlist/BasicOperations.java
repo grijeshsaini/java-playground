@@ -3,7 +3,7 @@ package com.learn.java.collection.list.linkedlist;
 import java.util.LinkedList;
 import java.util.List;
 
-import static com.learn.java.collection.list.Utilities.print;
+import static com.learn.java.collection.Utilities.print;
 
 /**
  * This class contains basic operation over Linked List

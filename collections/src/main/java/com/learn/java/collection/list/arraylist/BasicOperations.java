@@ -2,7 +2,7 @@ package com.learn.java.collection.list.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;
-import static com.learn.java.collection.list.Utilities.print;
+import static com.learn.java.collection.Utilities.print;
 
 /**
  * This class contains basic operation over ArrayList
@@ -44,7 +44,7 @@ public class BasicOperations {
          * any subsequent elements to the right (adds one to their indices).
          */
         list.add(2, "Five");
-        print(list," Index Based Addition");
+        print(list, " Index Based Addition");
     }
 
     /**
@@ -74,7 +74,7 @@ public class BasicOperations {
         print(list, "Remove(Object) operation");
 
         list.clear(); //It will clear the list
-        print(list," Clear list");
+        print(list, " Clear list");
     }
 
 }
