@@ -76,6 +76,16 @@ public class BasicOperations {
         //One more way - It uses iterator only internally
         //set.forEach(System.out::println);
         print(set, "Different way to iterate");
+
+        print(null, "Reverse Order");
+        Iterator reverseIterator = ((TreeSet)set).descendingIterator();
+        while (reverseIterator.hasNext()) {
+            System.out.println(reverseIterator.next());
+        }
+
+        print(((TreeSet)set).descendingSet(),"Descending Set");
+
+
     }
 
     /**
