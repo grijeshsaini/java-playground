@@ -17,7 +17,7 @@ public class PlayWithTimeZones {
         System.out.println(now);
 
         //Asia/Kolkata
-        ZoneId indiaZone = ZoneId.of("Asia/Kolkata"); //Australian Eastern Time
+        ZoneId indiaZone = ZoneId.of("Asia/Kolkata");
         LocalTime now1 = LocalTime.now(indiaZone);
         System.out.println(now1);
 
