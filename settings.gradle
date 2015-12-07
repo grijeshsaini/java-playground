@@ -2,4 +2,5 @@ rootProject.name = 'java-playground'
 
 include 'collections'
 include 'utilities'
+include 'concurrency'
 
