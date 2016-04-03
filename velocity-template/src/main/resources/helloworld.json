@@ -1,0 +1,4 @@
+{
+  "First Name":"${names.firstName}",
+  "Second Name":"$!{names.secondName}"
+}
