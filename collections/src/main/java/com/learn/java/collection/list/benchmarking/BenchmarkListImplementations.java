@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * This class contains the benchmarking of List operations on Array list and Linked List
  * Here , I have used JMH to do benchmarking
- * To run this class first run clean and build task, Then tun this class directly
+ * To run this class first run clean and build task, Then run this class directly
  *
  * Created by grijesh
  */
