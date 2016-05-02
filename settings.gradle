@@ -5,4 +5,5 @@ include 'utilities'
 include 'concurrency'
 include 'tree'
 include 'velocity-template'
+include 'excelfiles'
 
