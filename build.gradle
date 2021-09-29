@@ -9,5 +9,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'junit:junit:4.11'
+    implementation('org.apache.poi:poi:3.14')
+    implementation('org.apache.poi:poi-ooxml:3.14')
+    testImplementation 'junit:junit:4.12'
 }
