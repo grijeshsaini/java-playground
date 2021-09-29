@@ -7,7 +7,6 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
-    compile('org.openjdk.jmh:jmh-core:1.11.2')
-    compile('org.openjdk.jmh:jmh-generator-annprocess:1.11.2')
+    implementation('org.openjdk.jmh:jmh-core:1.11.2')
+    implementation('org.openjdk.jmh:jmh-generator-annprocess:1.11.2')
 }
